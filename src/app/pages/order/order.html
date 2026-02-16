@@ -96,7 +96,7 @@
         </div>
         <div class="main-order-box">
             <div class="main-order-form" [formGroup]="orderForm" id="orderForm"
-                [style.display]="orderId ? 'none' : null">
+                [style.display]="orderId() ? 'none' : null">
                 <div class="main-order-title">Оформление доставки</div>
                 <div class="main-block-info-row">
                     <div class="main-block-title">Контакты</div>
